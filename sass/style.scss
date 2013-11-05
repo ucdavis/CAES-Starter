@@ -1,0 +1,47 @@
+// CAES Starter set up
+// This is the base file that pulls together all the other elements.
+
+@import 'vendor';				// Select which vendor libraries to include here
+@import 'dependencies';			// Global variables and shared styles
+@import 'foundation';			// Structural CSS
+@import 'components';			// Reusable pieces, i.e. icons, buttons
+@import 'regions';				// Page region styles
+@import 'responsive';			// Responsive styles
+
+
+
+
+// -----------------------------------------------------------------
+//
+// For the starter template. You can remove the below from any real proj 
+//
+// -----------------------------------------------------------------
+
+
+body {background: url(../images/geometry.png) repeat fixed; padding: 40px 0 20px;}
+.swatch {display: block; width: 80px; height: 80px; background: #ccc; overflow: hidden; clear:both;}
+dl {display: block; clear: both; margin-bottom: 1em;}
+dt, dd {float: left; padding: 5px;}
+dt {font-weight: bold; font-size: .9em; width: 80px; text-align: right;}
+dd {margin-left: 0;}
+
+	.ucdavis-blue {background: $ucdavis-blue;}
+	.ucdavis-gold {background: $ucdavis-gold;}
+
+	.unitrans-red {background: $unitrans-red;}
+	.western-redbud {background: $western-redbud;}
+	.california-poppy {background: $california-poppy;}
+	.golden-lupine {background: $golden-lupine;}
+	.sunny-grass {background: $sunny-grass;}
+	.sky-blue {background: $sky-blue;}
+	.recpool-blue {background: $recpool-blue;}
+	.wine-grape {background: $wine-grape;}
+
+	.mu-brick {background: $mu-brick;}
+	.harthall-stucco {background: $harthall-stucco;}
+	.sage-green {background: $sage-green;}
+	.evergreen {background: $evergreen;}
+	.wintersky-gray {background: $wintersky-gray;}
+	.cenwalk-gray {background: $cenwalk-gray;}
+	.cork-oak {background: $cork-oak;}
+	.shingle-brown {background: $shingle-brown;}
