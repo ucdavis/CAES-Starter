@@ -6,7 +6,7 @@
 // @import 'normalize';
 
 // Border-box-sizing
-@import 'border-box-sizing';
+@import 'vendor/border-box-sizing';
 
 
 // Base typography
@@ -15,6 +15,8 @@ body {color: lighten($ucdavis-blue, 15);}
 
 
 // Base CSS
+$mobile: new-breakpoint(max-width 500px 6);
+
 section.header {
 	@include outer-container;
 	li {@include span-columns(2);}
@@ -23,6 +25,9 @@ section.header {
 }
 section.container {
 	@include outer-container;
-	article {@include span-columns(9);}
+	article {
+		@include span-columns(9);
+		@include media($mobile){@include span-columns(3);}
+	}
 	aside {@include span-columns(3);}
 }
