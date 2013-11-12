@@ -543,6 +543,23 @@ section.container aside:last-child {
   margin-right: 0;
 }
 
+/* line 35, ../sass/_foundation.scss */
+footer {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 18, ../sass/vendor/bourbon/addons/_clearfix.scss */
+footer:before, footer:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../sass/vendor/bourbon/addons/_clearfix.scss */
+footer:after {
+  clear: both;
+}
+
 /* line 7, ../sass/_components.scss */
 a:link, a:visited {
   text-decoration: none;

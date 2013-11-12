@@ -31,3 +31,7 @@ section.container {
 	}
 	aside {@include span-columns(3);}
 }
+
+footer {
+	@include outer-container;
+}
